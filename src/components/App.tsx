@@ -370,6 +370,8 @@ const gesture: Gesture = {
   initialScale: null,
 };
 
+console.log('Hello, world!')
+
 class App extends React.Component<AppProps, AppState> {
   canvas: AppClassProperties["canvas"] = null;
   rc: RoughCanvas | null = null;
